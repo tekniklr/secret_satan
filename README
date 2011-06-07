@@ -1,0 +1,13 @@
+This script will parse the provided array of persons to generate a
+one to one relationship between them, suitable for gift giving. It will 
+email each person with their 'victim' and any rules for the gifting 
+occasion (price ranges, etc.). The person who runs the program will have 
+no idea what associations are made, unless they cheat and look at their 
+sendmail logs.
+
+The participants are programmed into a configurable array of hashes before
+the program is run. Each hash has an option to contain an additional array
+of excluded users for each person- either people that participant doesn't 
+know, people that they are already purchasing a gift for outside of this 
+event, or people who exchanged gifts though a similar roulette the 
+previous year.
